@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778BCADA166B076E00213B28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 778BCAD9166B076E00213B28 /* main.cpp */; };
+		778BCADC166B0BC000213B28 /* libbass.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 778BCADB166B0BC000213B28 /* libbass.dylib */; };
+		778BCAF1166B0CD900213B28 /* libbass.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 778BCADB166B0BC000213B28 /* libbass.dylib */; };
+		778BCAFC166B1CE600213B28 /* Christmas.xm in Resources */ = {isa = PBXBuildFile; fileRef = 778BCAFB166B1CE200213B28 /* Christmas.xm */; };
+		77E5213315DF2A87000595F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E5213215DF2A87000595F8 /* Cocoa.framework */; };
+		77E5215E15DF2CDE000595F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E5215D15DF2CDE000595F8 /* OpenGL.framework */; };
+		77E5217915DF4454000595F8 /* CoreWindow_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77E5217315DF4454000595F8 /* CoreWindow_mac.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		778BCAF0166B0CCF00213B28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				778BCAF1166B0CD900213B28 /* libbass.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77460B90166B805B00B4C08A /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = ../Scene.h; sourceTree = "<group>"; };
+		77460B91166B805B00B4C08A /* SceneBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SceneBase.h; path = ../SceneBase.h; sourceTree = "<group>"; };
+		778BCAD9166B076E00213B28 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		778BCADB166B0BC000213B28 /* libbass.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libbass.dylib; sourceTree = "<group>"; };
+		778BCAFB166B1CE200213B28 /* Christmas.xm */ = {isa = PBXFileReference; lastKnownFileType = file; name = Christmas.xm; path = ../vcproj/Christmas.xm; sourceTree = "<group>"; };
+		77E30D94166B8A92007AE2AE /* Sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = ../Sound.h; sourceTree = "<group>"; };
+		77E5212E15DF2A87000595F8 /* Dekiru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dekiru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E5213215DF2A87000595F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		77E5213515DF2A87000595F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		77E5213615DF2A87000595F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		77E5213715DF2A87000595F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77E5215D15DF2CDE000595F8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		77E5217215DF4454000595F8 /* CoreWindow_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreWindow_mac.h; sourceTree = "<group>"; };
+		77E5217315DF4454000595F8 /* CoreWindow_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoreWindow_mac.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E5212B15DF2A87000595F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E5215E15DF2CDE000595F8 /* OpenGL.framework in Frameworks */,
+				77E5213315DF2A87000595F8 /* Cocoa.framework in Frameworks */,
+				778BCADC166B0BC000213B28 /* libbass.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E5212315DF2A87000595F8 = {
+			isa = PBXGroup;
+			children = (
+				778BCAFB166B1CE200213B28 /* Christmas.xm */,
+				778BCADB166B0BC000213B28 /* libbass.dylib */,
+				77E5216E15DF4454000595F8 /* Core */,
+				77E5213815DF2A87000595F8 /* Resource */,
+				77E5213115DF2A87000595F8 /* Frameworks */,
+				77E5212F15DF2A87000595F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E5212F15DF2A87000595F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E5212E15DF2A87000595F8 /* Dekiru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E5213115DF2A87000595F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E5215D15DF2CDE000595F8 /* OpenGL.framework */,
+				77E5213215DF2A87000595F8 /* Cocoa.framework */,
+				77E5213415DF2A87000595F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E5213415DF2A87000595F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E5213515DF2A87000595F8 /* AppKit.framework */,
+				77E5213615DF2A87000595F8 /* CoreData.framework */,
+				77E5213715DF2A87000595F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		77E5213815DF2A87000595F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = CoreWindowTest;
+			sourceTree = "<group>";
+		};
+		77E5216E15DF4454000595F8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77E30D94166B8A92007AE2AE /* Sound.h */,
+				77460B90166B805B00B4C08A /* Scene.h */,
+				77460B91166B805B00B4C08A /* SceneBase.h */,
+				778BCAD9166B076E00213B28 /* main.cpp */,
+				77E5217215DF4454000595F8 /* CoreWindow_mac.h */,
+				77E5217315DF4454000595F8 /* CoreWindow_mac.mm */,
+			);
+			name = Core;
+			path = ../Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E5212D15DF2A87000595F8 /* Dekiru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E5214C15DF2A88000595F8 /* Build configuration list for PBXNativeTarget "Dekiru" */;
+			buildPhases = (
+				77E5212A15DF2A87000595F8 /* Sources */,
+				77E5212B15DF2A87000595F8 /* Frameworks */,
+				77E5212C15DF2A87000595F8 /* Resources */,
+				778BCAF0166B0CCF00213B28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dekiru;
+			productName = CoreWindowTest;
+			productReference = 77E5212E15DF2A87000595F8 /* Dekiru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E5212515DF2A87000595F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = kioku;
+			};
+			buildConfigurationList = 77E5212815DF2A87000595F8 /* Build configuration list for PBXProject "Dekiru" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77E5212315DF2A87000595F8;
+			productRefGroup = 77E5212F15DF2A87000595F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E5212D15DF2A87000595F8 /* Dekiru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E5212C15DF2A87000595F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BCAFC166B1CE600213B28 /* Christmas.xm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E5212A15DF2A87000595F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E5217915DF4454000595F8 /* CoreWindow_mac.mm in Sources */,
+				778BCADA166B076E00213B28 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77E5214A15DF2A88000595F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		77E5214B15DF2A88000595F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		77E5214D15DF2A88000595F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dekiru-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = Dekiru;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77E5214E15DF2A88000595F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dekiru-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = Dekiru;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E5212815DF2A87000595F8 /* Build configuration list for PBXProject "Dekiru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E5214A15DF2A88000595F8 /* Debug */,
+				77E5214B15DF2A88000595F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E5214C15DF2A88000595F8 /* Build configuration list for PBXNativeTarget "Dekiru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E5214D15DF2A88000595F8 /* Debug */,
+				77E5214E15DF2A88000595F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E5212515DF2A87000595F8 /* Project object */;
+}
